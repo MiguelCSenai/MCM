@@ -3,18 +3,22 @@ colocaremos um estilo de texto para nosso menu e removeremos
 os bullets da lista. Depois vamos definir uma borda e colocaremos
 o float:"left"; para que as bordas fiquem certinhas. */
 
-*{margin: 0;
+.menu *{margin: 0;
     padding: 0;
     }
 
-body{
+.menu body{
     margin-top: 20px;
 }
 
 /* para centralizar o menu na tela*/
 div {
-width: 500px;
+width: 650px;
 margin: 0 auto;
+}
+
+ul {
+    padding-inline-start: 0px;
 }
 
 .menu{
